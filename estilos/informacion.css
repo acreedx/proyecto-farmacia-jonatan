@@ -1,0 +1,25 @@
+.article-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+}
+
+.info-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.info-texto {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.titulo {
+    margin-bottom: 10px;
+    color: var(--azul-semioscuro);
+    font-size: 1.5rem;
+}
+.contenido {
+    color: var(--azul);
+}

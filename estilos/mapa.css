@@ -1,0 +1,16 @@
+.maps-container {
+  height: auto;
+  display: grid;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 50px 2vw;
+}
+#map {
+  height: 700px;
+  border-radius: 40px;
+  -webkit-box-shadow: 2.5px 1.5px 7.5px -0.5px #414141;
+  -moz-box-shadow: 2.5px 1.5px 7.5px -0.5px #414141;
+  box-shadow: 2.5px 1.5px 7.5px -0.5px #414141;
+  padding: 5px;
+  width: 70vw;
+}

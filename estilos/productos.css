@@ -1,0 +1,26 @@
+.product-container {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(1fr, 280px));*/
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.producto {
+    background-color: var(--azul-claro);
+    display: grid;
+    justify-items: center;
+    padding: 10px;
+    gap: 4px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.producto > img {
+    width: 70% !important;
+    border-radius: 25px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.titulo {
+    color: var(--azul-oscuro);
+}
+.contenido {
+    color: var(--azul-semioscuro);
+}
